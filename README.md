@@ -11,4 +11,4 @@ Outputs device information in game, useful to check for device support without b
 - Location
 - Navigator
 
-This project the uses boilder plate from <https://github.com/Cerlancism/Phaser-CE-TypeScript-ParcelJS/> 
+This project uses the boilderplate from <https://github.com/Cerlancism/Phaser-CE-TypeScript-ParcelJS/> 
