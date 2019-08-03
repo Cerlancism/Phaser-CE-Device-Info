@@ -88,7 +88,7 @@ export class Boot extends Phaser.State
     {
         const textMessageWindow = JSON.stringify(getFilteredObject(window, windowPlainPropertiesKeys), singleLevelReplacer, 2)
         const textMessageinput = JSON.stringify(getFilteredObject(this.input.activePointer, this.inputPlainPropertyKeys), singleLevelReplacer, 2)
-        this.textDump.text = `device\n${this.textMessageDevice}\n\ninput\n${textMessageinput}\n\nwindow\n${textMessageWindow}\n\nlocation\n${this.textMessageLocation}\n\nnavigator${this.textMessageNavigator}`
+        this.textDump.text = `device\n${this.textMessageDevice}\n\ninput\n${textMessageinput}\n\nwindow\n${textMessageWindow}\n\nlocation\n${this.textMessageLocation}\n\nnavigator\n${this.textMessageNavigator}`
     }
 
     update()
